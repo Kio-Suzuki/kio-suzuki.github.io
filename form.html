@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <title>Doação</title>
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <ul class="menu">
+                <li><img src="img/logo.png" alt="Conexão Solidária logo"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#instituições">Instituições</a></li>
+                <li><a href="form.html">Doar</a></li>
+                <li><a href="index.html#ods3">ODS 3</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-text">
+            <h1>Faça a Diferença Agora</h1><br>
+            <p>Cada doação conta. Junte-se a nós e seja parte desta mudança extraordinária!</p>
+        </div>
+    </header>
+
+    <div class="container stretch">
+		<div class="item">
+            <h2>VOCÊ SABIA?</h2><br>
+            <h3>Benefícios Fiscais</h3><br>
+                <p>Em muitos lugares, as doações para organizações sem fins lucrativos são dedutíveis de impostos!</p><br>
+            <h3>Melhore Vidas</h3><br>
+                <p>Doar para ONGs como o Lar das Vovozinhas ou o Instituto Batuíra tem um impacto direto na vida da pessoas que mais precisam. Sua doação contribui para a construção de um futuro melhor para a comunidade atendida pelas ONG's.</p><br>
+            <h3>Se ajude ao ajudar</h3><br>
+                <p>Saber que você está fazendo a diferença na vida de alguém e ajudando a construir um mundo mais justo pode ser extremamente gratificante.</p><br>
+            <h3>#ÉTempoDeCuidar dos que cuidaram de nós.</h3><br>
+                <p>Juntos, podemos fazer a diferença nas vidas das pessoas.</p>
+                <p> Faça parte desta corrente de solidariedade</p>
+                <p> Ajude-nos a construir um mundo melhor para todos</p>
+        </div>
+        <div class="item">
+            <img src="/img/painel1-foto2.png" alt="">
+        </div>
+	</div>
+
+    <div class="container2">
+        <div class="item2">
+            <form id="doacao">
+                <label for="nameInput">Nome:</label>
+                <input id="nameInput" type="text">
+                
+                <label for="cpfInput">CPF:</label>
+                <input id="cpfInput" type="text" placeholder="xxx.xxx.xxx-xx">
+        
+                <label for="emailInput">E-mail:</label>
+                <input id="emailInput" type="email">
+        
+                <label for="dataInput">Data de nascimento:</label>
+                <input id="dataInput" type="date">
+        
+                <label for="cepInput">CEP:</label>
+                <input id="cepInput" type="text" placeholder="xx.xxx-xxx">
+        
+                <label for="ruaInput">Rua:</label>
+                <input id="ruaInput" type="text">
+        
+                <label for="numeroInput">Número:</label>
+                <input id="numeroInput" type="text">
+        
+                <label for="complementoInput">Complemento:</label>
+                <input id="complementoInput" type="text">
+        
+                <label for="bairroInput">Bairro:</label>
+                <input id="bairroInput" type="text">
+        
+                <label for="cidadeInput">Cidade:</label>
+                <input id="cidadeInput" type="text">
+        
+                <label for="estadoInput">Estado:</label>
+                <input id="estadoInput" type="text">
+
+                <div class="container">
+                    <div class="item2">
+                        <label for="ong">Qual ONG deseja ajudar?</label><br><br>
+                            
+                        <input type="radio" id="ong1" name="ong" value="Núcleo Batuíra">
+                        <label for="ong1">Núcleo Batuíra</label><br>
+                        
+                        <input type="radio" id="ong2" name="ong" value="Lar dos Vovôs e Vovozinhas">
+                        <label for="ong2">Lar dos Vovôs e Vovozinhas</label><br>
+                        
+                        <input type="radio" id="ong3" name="ong" value="Grupo Orar">
+                        <label for="ong3">Grupo Orar</label><br><br>
+                </div>
+
+                    <div class="item2">
+                        <label for="doar">O que deseja doar?</label><br><br>
+                        <input type="checkbox" id="doacao1" name="doar" value="Fralda Geriátrica">
+                        <label for="doacao1">Fralda Geriátrica</label><br>
+                        <input type="checkbox" id="doacao2" name="doar" value="Alimento não Perecível">
+                        <label for="doacao2">Alimento Não Perecível</label><br>       
+                    </div>
+                </div>
+            
+                <button type="submit">Doar</button>
+                <button type="reset">Limpar campos</button>
+
+            </form>
+        </div>
+
+        <div class="item3">
+            
+            <div class="pesquisar">
+                <input type="text" id="pesquisar" placeholder="Pesquisar doadores...">
+                <span onclick="pesquisar()" class="btnpesquisar"><img src="img/search.svg" width="18" alt="Instagram"></span>
+            </div>
+
+            <div class="item4">
+                <h2>Últimos Doadores</h2>
+                <ul id="listaDoadores"></ul>
+            
+                <span class="clearAll" type="button" onclick="deleteAll()">Excluir todos itens</span>
+            </div>
+
+            
+        </div>
+
+    </div>
+    
+    <footer>
+        <p>© Conexão Solidária 2023 - Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

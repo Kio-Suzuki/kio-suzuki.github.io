@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url(/fonts/DancingScript-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ebe8e8;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    background-image: url(/img/painel1-foto1-w2.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0%;
+    height: 100vh;
+    position:relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    padding: 60px;
+}
+
+#navbar {
+    background: #0000006e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.menu{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu img {
+    width: 40px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: #05db3b;
+}
+
+.header-text h1 {
+    font-family: 'DancingScript', 'Poppins', sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	display: flex; 
+    height: 100%;
+}
+
+.container2 {
+	width: 1000px;
+	margin: auto;
+    margin-bottom: 20px;
+	display: flex; 
+    height: 100%;
+    background: white;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stretch {
+	align-items: stretch;
+}
+
+.item {
+    padding: 15px;
+	flex: 1;
+    margin: 2px;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+.item2 {
+    padding: 12px;
+	flex: 1;
+    margin: 2px;
+	color: black;
+	text-align: left;
+	font-size: 15px;
+}
+
+.item3 {
+    padding: 15px;
+	flex: 1;
+    margin: 2px;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+input[type="text"],input[type="number"],input[type="email"], input[type="date"]{
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+footer{
+    font-size: 10px;
+    background: black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+button[type='submit']{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    background-color: #d9d9d9;
+    border: none;
+    cursor: pointer;
+    size: 20px;
+    display: block;
+    margin: auto;
+}
+
+button[type='submit']:hover{
+    background-color: #05db3b;
+}
+
+.item3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.item3 li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    padding: 1px;
+    width: 5%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    float: right;
+}
+
+.delete-button:hover {
+    background: #05db3b;
+}
+
+.clearAll {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    background: rgb(112, 110, 110);
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.clearAll:hover {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    background: rgb(182, 178, 178);
+    padding: 10px;
+}
+
+.delete-button {
+    margin-left: 10px; 
+}
+
+.item4 {
+    padding-top: 20px;
+}
+
+.pesquisar {
+    padding: 15px;
+    margin: 2px;
+	color: black;
+	text-align: left;
+	font-size: 15px;  
+    display:inline-flex; 
+}
+.btnpesquisar {
+    padding: 5px;
+    width: auto;
+    height: 20px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.btnpesquisar:hover {
+    background: #05db3b;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
