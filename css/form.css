@@ -201,6 +201,7 @@ button[type='submit']:hover{
     padding: 10px;
     display: inline-block;
     margin: 10px;
+    cursor: pointer;
 }
 
 .clearAll:hover {
@@ -209,6 +210,7 @@ button[type='submit']:hover{
     text-align: center;
     background: rgb(182, 178, 178);
     padding: 10px;
+    cursor: pointer;
 }
 
 .delete-button {
