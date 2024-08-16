@@ -1,15 +1,15 @@
-[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
-[JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
-[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
-[PROJECT__URL]: https://github.com/Kio-Suzuki/prime-flix
+[PROJECT__URL]:https://kio-suzuki.github.io/index.html
 
-<h1 align="center" style="font-weight: bold;">Prime Flix 🎬</h1>
+<h1 align="center" style="font-weight: bold;">Conexão Solidária 💻</h1>
 
-![react][REACT__BADGE]
-![javascript][JavaScript]
+![html][HTML5]
 ![css][CSS3]
+![javascript][JavaScript]
 
 <p align="center">
  <a href="#about">About</a> • 
@@ -26,7 +26,7 @@
 
 <h2 id="started">📌 About</h2>
 
-O Prime Flix permite ao usuário verificar os filmes em cartazes e adiciona-los a sua lista.
+Simple description of what your project do or how to use it.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
@@ -46,7 +46,7 @@ Here you list all prerequisites necessary for running your project. For example:
 How to clone your project
 
 ```bash
-git clone https://github.com/Kio-Suzuki/prime-flix.git
+git clone your-project-url-in-github
 ```
 
 <h3>Starting</h3>
@@ -54,8 +54,8 @@ git clone https://github.com/Kio-Suzuki/prime-flix.git
 How to start your project
 
 ```bash
-npm install
-npm start
+cd project-name
+npm some-command-to-run
 ```
 
 <h2 id="routes">📍 Application Routes</h2>
@@ -64,20 +64,29 @@ Here you can list the main routes of your API, and what are their expected reque
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>/</kbd>     | page that list all movies in theaters
-| <kbd>/movie/</kbd>     | page that contains all movie informations
-| <kbd>/favorites</kbd>     | page that contains all user favorites movies
-| <kbd>/*</kbd>     | 404 - Page not found
+| <kbd>/authenticate</kbd>     | page that list all user info
+| <kbd>/login</kbd>     | page to login
+| <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
 
-<h2 id="colab">🤝 Author</h2>
+<h2 id="colab">🤝 Collaborators</h2>
+
+Special thank you for all people that contributed for this project.
 
 <table>
   <tr>
-    <td align="center">
+     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/116661015?v=4" width="100px;" alt="Akio Suzuki Profile Picture"/><br>
         <sub>
           <b>Akio Suzuki</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/114315338?v=4" width="100px;" alt="Bruna Naian Profile Picture"/><br>
+        <sub>
+          <b>Bruna Naian</b>
         </sub>
       </a>
     </td>
