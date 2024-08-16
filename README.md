@@ -25,7 +25,7 @@
 
 <h2 id="started">📌 About</h2>
 
-Simple description of what your project do or how to use it.
+Conexão Solidária é projeto dedicado a promover a conscientização e apoiar organizações não governamentais (ONGs). O objetivo é fornecer aos usuários informações sobre algumas ONGs e facilitar a realização de doações para apoiar suas causas.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
