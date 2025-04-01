@@ -23,7 +23,7 @@
     <img src="https://github.com/Kio-Suzuki/kio-suzuki.github.io/blob/main/assets/instituicoes.png?raw=true" alt="Home Page" width="500px"
 </p>
 
-<h2 id="started">📌 About</h2>
+<h2 id="about">📌 About</h2>
 
 Conexão Solidária é projeto dedicado a promover a conscientização e apoiar organizações não governamentais (ONGs). O objetivo é fornecer aos usuários informações sobre algumas ONGs e facilitar a realização de doações para apoiar suas causas.
 
@@ -55,8 +55,6 @@ Special thank you for all people that contributed for this project.
 </table>
 
 <h2 id="contribute">📫 Contribute</h2>
-
-Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
 
 1. `git clone https://github.com/Kio-Suzuki/kio-suzuki.github.io`
 2. `git checkout -b feature/NAME`
